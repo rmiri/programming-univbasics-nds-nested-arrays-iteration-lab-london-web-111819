@@ -12,7 +12,7 @@ def join_ingredients(src)
     newArr.push("I love "+src[i][0].to_s+" and "+src[i][1].to_s+" on my pizza")
     i = i + 1
   end
-
+puts newArr
 end
 
 def find_greater_pair(src)
