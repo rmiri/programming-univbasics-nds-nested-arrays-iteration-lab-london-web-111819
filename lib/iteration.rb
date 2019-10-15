@@ -10,7 +10,7 @@ def join_ingredients(src)
   while i < src.length do
     "I love ${src[i][0]} and ${src[i][1]} on my pizza"
   end
-  
+
 end
 
 def find_greater_pair(src)
