@@ -8,10 +8,8 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   i = 0
   while i < src.length do
-    def to_s
     puts "I love ${src[i][0]} and ${src[i][1]} on my pizza"
-  end
-    i += 1
+    i = i + 1
   end
 
 end
